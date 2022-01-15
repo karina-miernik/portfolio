@@ -2,14 +2,11 @@ import React, {useState} from 'react';
 import '../styles/Home.css';
 import PageWrapper from './PageWrapper'
 import Typewriter from 'typewriter-effect';
+import {Link} from "react-router-dom";
 const Home = () => {  
-//   const [ time, setTime ] = useState(false);
-//   let classes = "img";
-//   if(time) {
-//   classes += " changed";
-// }
+
   return(
-    <PageWrapper>
+    // <PageWrapper>
       <div className='home'>
         <Typewriter
           onInit={(typewriter) => {
@@ -26,9 +23,14 @@ const Home = () => {
               .start()
           }}
         />
+        <div className='button-container'>
+          <div><Link to="/projects" className='link-button'>My projects</Link></div>
+          <div><Link to="/about" className='link-button'>About me</Link></div>
+          
+        </div>
         <div className='img'/>
       </div>
-    </PageWrapper>
+    // </PageWrapper>
   )
 }
 

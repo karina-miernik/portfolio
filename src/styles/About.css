@@ -3,11 +3,27 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  width:60%;
 }
 .about{
   display: flex;
   flex-direction: column;
   width:70%;
+  padding-right:2rem;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  text-align: start;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color:#8A817C;
+  text-decoration: none;
+}
+.about a{
+  color:#8A817C;
+  text-decoration: none;
+}
+.about a:hover{
+  color:#E0AFA0;
 }

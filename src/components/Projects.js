@@ -47,14 +47,12 @@ const Projects = () => {
   })
   console.log(projects[1].image)
   return(
-    <PageWrapper>
-    <div className='home'>
+    <div className='projects-wrapper'>
       <Title title="My projects."/>
       <div className='project'>
         {renderedProjects}
       </div>
     </div>
-  </PageWrapper>
   )
 };
 

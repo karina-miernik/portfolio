@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Skills from './components/Skills'
 import About from './components/About'
 import Projects from './components/Projects'
+import Back from './components/Back'
 import {
   BrowserRouter,
   Routes,
@@ -22,6 +23,7 @@ return(
         <Route  path="/projects" element={<Projects/>} />
         <Route  path="/skills" element={<Skills/>} />
       </Routes>
+      <Back/>
     </BrowserRouter>
   </>
 )

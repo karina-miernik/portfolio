@@ -4,11 +4,10 @@
   flex-direction: row;
   justify-content: center;
   width:90%;
-  margin-bottom: 5rem;
+  margin:0 auto;
 }
-.home{
-  overflow: scroll;
-  position: relative;
-  max-width:100vw;
-  max-height: 100vh;
+.projects-wrapper{
+  overflow-y: scroll;
+  height: 100vh;
+  margin:0 auto;
 }
