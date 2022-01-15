@@ -1,24 +1,33 @@
+.wrapperAbout{
+  overflow-y: scroll;
+  height: 100vh;
+  margin:0 auto;
+}
 .about-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width:60%;
+  width:80%;
+  margin-bottom: 5rem;
 }
-.about{
+.about, .about-desc{
   display: flex;
   flex-direction: column;
-  width:70%;
-  padding-right:2rem;
   justify-content: center;
   align-items: flex-start;
   text-align: start;
-  font-size: 1rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color:#8A817C;
   text-decoration: none;
+  margin:2rem;
+}
+
+.about-desc{
+  width: 70%;
 }
 .about a{
   color:#8A817C;
@@ -26,4 +35,13 @@
 }
 .about a:hover{
   color:#E0AFA0;
+}
+.about-image{
+  background-image: url('../assets/me.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width:40vh;
+  height:40vh;
+  border-radius: 50%;
 }
