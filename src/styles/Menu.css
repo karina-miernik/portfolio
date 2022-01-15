@@ -1,0 +1,62 @@
+.nav {
+  top: 0;
+  position: fixed;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  align-items: center;
+  height: 10vh;
+}
+
+.link{
+  padding: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 1000;
+  color:#F4F3EE;
+  /* color: rgb(255, 255, 255); */  
+  letter-spacing: 0.15rem;
+}
+.link:hover {
+  text-decoration: none;
+  color: #8A817C;
+  transition: ease-in;
+  transition-duration: 0.2s;
+}
+
+.menuOpen{
+  z-index: 3;
+  position: fixed;
+  top:0%;
+  left:0%;
+  width:100vw;
+  height:100%;
+  background-color: rgba(224, 175, 160, 0.9);
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  flex-grow:1;
+  transition: all 0.4s ease-in;
+  -webkit-clip-path: circle(25% at 0 50%);
+}
+.menuClosed{
+  position: absolute;
+  top:10%;
+  width:50vw;
+  background-color: rgba(221, 190, 169, 1);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  -webkit-clip-path:circle(10% at -10% 50%);
+}
+.hamburger-react{
+  margin: 1rem;
+  background-color: #E0AFA0;
+  border-radius: 5%;
+}
