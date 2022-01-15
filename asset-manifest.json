@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5297b240.css",
-    "main.js": "/portfolio/static/js/main.2200514a.js",
+    "main.css": "/portfolio/static/css/main.1f8ac932.css",
+    "main.js": "/portfolio/static/js/main.163a488c.js",
     "static/media/zdroweat.png": "/portfolio/static/media/zdroweat.9225c30d58f90fd8be86.png",
     "static/media/weather.png": "/portfolio/static/media/weather.f3b4d3f30426075a9925.png",
     "static/media/countries.png": "/portfolio/static/media/countries.36bb5381c9be5bd1bee3.png",
+    "static/media/me.jpeg": "/portfolio/static/media/me.9f28335057adcfea86d9.jpeg",
     "static/media/herbmed.png": "/portfolio/static/media/herbmed.abc3157357673898f3b7.png",
     "static/media/welcome.svg": "/portfolio/static/media/welcome.c7174725ec68af319fb6.svg",
     "static/media/welcome1.svg": "/portfolio/static/media/welcome1.97e74fc75729d9463e42.svg",
@@ -16,11 +17,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/CSS.svg": "/portfolio/static/media/CSS.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/HTML.svg": "/portfolio/static/media/HTML.a026abbb678246d70ee9b70e4aee972c.svg",
-    "main.5297b240.css.map": "/portfolio/static/css/main.5297b240.css.map",
-    "main.2200514a.js.map": "/portfolio/static/js/main.2200514a.js.map"
+    "main.1f8ac932.css.map": "/portfolio/static/css/main.1f8ac932.css.map",
+    "main.163a488c.js.map": "/portfolio/static/js/main.163a488c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5297b240.css",
-    "static/js/main.2200514a.js"
+    "static/css/main.1f8ac932.css",
+    "static/js/main.163a488c.js"
   ]
 }
