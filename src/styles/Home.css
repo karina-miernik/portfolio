@@ -24,8 +24,9 @@
   height: 20vh;
   display: flex;
   background-repeat: no-repeat;
-  width: 40vw;
+  width:50vw;
   justify-content: center;
+  margin-top:8rem;
 }
 .changed{
   background-image: url(../assets/welcome1.svg);

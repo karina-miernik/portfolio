@@ -13,7 +13,7 @@ import { renderMatches } from 'react-router-dom';
 const skills = [
   {
     "name": "Java Script",
-    "icon" : JS
+    "icon" : JS,
   },
   {
     "name": "React",
@@ -47,8 +47,10 @@ const Skills = (props) => {
       {
         skills.map(skill => {
           return(
-         <div className='skill'>   
+         <div className='skill'> 
+          <p className='hidden-p'></p>  
           <img src={skill.icon} alt="Icon image"/>
+          <p>{skill.name}</p>
         </div>
           )
         })
