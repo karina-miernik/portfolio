@@ -13,20 +13,20 @@ const Menu = (props) => {
           {
             isOpen  ?
             <div className={'menuOpen'}>
-            <Link to="/portfolio" className={'link'}>
+            <Link to="/portfolio" className={'link'} onClick={e=>setOpen(false)}>
             home
             </Link>
-            <Link to="/projects" className={'link'}>
+            <Link to="/projects" className={'link'} onClick={e=>setOpen(false)}>
             projects
             </Link>
-            <Link to="/skills" className={'link'}>
+            <Link to="/skills" className={'link'} onClick={e=>setOpen(false)}>
             skills
             </Link>
-            <Link to="/about" className={'link'}>
+            <Link to="/about" className={'link'} onClick={e=>setOpen(false)}>
             about
             </Link>
           </div>
-          : <div className={'menuClosed'} />
+          : <div className={'menuClosed'} onClick={e=>setOpen(false)}/>
           }  
       </>
   )
