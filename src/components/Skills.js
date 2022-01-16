@@ -41,7 +41,7 @@ const skills = [
   }
 ]
 const Skills = (props) => {
-  return <div>
+  return <div className='skills-wrapper'>
       <Title title="My stack."/>
       <div className='skills'>
       {

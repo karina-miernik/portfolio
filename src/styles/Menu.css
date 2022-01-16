@@ -15,7 +15,6 @@
   text-decoration: none;
   font-weight: 1000;
   color:#F4F3EE;
-  /* color: rgb(255, 255, 255); */  
   letter-spacing: 0.15rem;
 }
 .link:hover {
@@ -35,7 +34,7 @@
   background-color: rgba(224, 175, 160, 0.9);
   justify-content: center;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   text-align: start;

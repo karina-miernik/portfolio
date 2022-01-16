@@ -1,12 +1,17 @@
+.skills-wrapper{
+  overflow-y: scroll;
+  height: 100vh;
+  margin:0 auto;
+}
 .skills{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
   flex-direction: row;
-  height:100%;
   width:45%;
   margin:0 auto;
+  margin-bottom: 5rem;
 }
 .skill{
   width:100px;
