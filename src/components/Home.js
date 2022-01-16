@@ -24,8 +24,8 @@ const Home = () => {
           }}
         />
         <div className='button-container'>
-          <div><Link to="/projects" className='link-button'>My projects</Link></div>
-          <div><Link to="/about" className='link-button'>About me</Link></div>
+          <div><Link to="/portfolio/projects" className='link-button'>My projects</Link></div>
+          <div><Link to="/portfolio/about" className='link-button'>About me</Link></div>
           
         </div>
         <div className='img'/>
