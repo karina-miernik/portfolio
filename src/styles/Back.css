@@ -1,21 +1,19 @@
-.back{
+.back-icon{
   position:absolute;
   bottom:0;
   right:0;
   padding:1rem;
-  margin:1rem;
+  margin-right:1rem;
+  margin-bottom:1rem;
   background-color: #8A817C;
+  transition: all 0.3s ease-out;
   border-radius: 50%;
-}
-.back-icon{
+  transition: all 0.3s ease-out;
   color: #E0AFA0;
 }
 
 .back-icon:hover{
   color: #F4F3EE;
-
-}
-.back:hover{
   -webkit-box-shadow: 0px 0px 31px -7px rgba(138, 129, 124, 1);
   -moz-box-shadow: 0px 0px 31px -7px rgba(138, 129, 124, 1);
   box-shadow: 0px 0px 31px -7px rgba(138, 129, 124, 1);

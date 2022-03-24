@@ -6,12 +6,9 @@ import {Link} from "react-router-dom";
 
 const Back = (props) => {
   return(
-    <div className='back'>
     <Link to="/portfolio" className='back-icon'>
        <FontAwesomeIcon icon={faHome} size="lg" />
     </Link>
-
-    </div>    
   )
 
  

@@ -9,6 +9,7 @@
   align-content: center;
   align-items: center;
   text-align: center;
+  transition: all 0.3s ease-out;
   border-radius: 5%;
 
 }
@@ -38,6 +39,7 @@
   letter-spacing: 0.25rem;
   color:#E0AFA0;
   text-transform: uppercase;
+  transition: all 0.3s ease-out;
   font-size:1rem;
 }
 .project-link:hover{
