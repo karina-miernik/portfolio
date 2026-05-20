@@ -1,18 +1,23 @@
 import React from 'react';
-import PageWrapper from './PageWrapper'
 import Title from './Title'
 import Card from './Card'
 import '../styles/Projects.css'
 import herbmed from '../assets/herbmed.png'
 import zdroweat from '../assets/zdroweat.png'
-import weather from '../assets/weather.png'
 import countries from '../assets/countries.png'
+import cottage from '../assets/cottage.png'
 const Projects = () => {
   const projects = [
     {
+      "name": "Holiday cottage",
+      "description" : "Portfolio for holiday cottage (in Polish). Build in React & Tailwindcss.",
+      "link" : "https://domekzwidokiem.netlify.app/",
+      "image": cottage
+    },
+    {
       "name": "ZdrowEat",
       "description" : "A team project. ZdrowEat is an app for finding heathy recipes. Build in React.",
-      "link" : "http://app.zdroweat.jfdz14.is-academy.pl/",
+      // "link" : "http://app.zdroweat.jfdz14.is-academy.pl/",
       "image": zdroweat
     },
     {
@@ -27,12 +32,6 @@ const Projects = () => {
       "link" : "https://karina-miernik.github.io/countries-app/",
       "image": countries
     },
-    {
-      "name": "Weather App",
-      "description" : "Weather App build in React with Hooks. Checks for a weather in a certain city or country.",
-      "link" : "https://karina-miernik.github.io/weather-app/",
-      "image" : weather
-    }
   ]
 
   const renderedProjects = projects.map(project => {
@@ -45,7 +44,6 @@ const Projects = () => {
       />
     )
   })
-  console.log(projects[1].image)
   return(
     <div className='projects-wrapper'>
       <Title title="My projects."/>
