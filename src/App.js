@@ -9,12 +9,13 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
+import PageWrapper from './components/PageWrapper';
 const App = () => {
 return(
   <>
     <BrowserRouter>
+    <PageWrapper>
       <Menu/>
       <Routes>
         <Route exact path="/portfolio" element={<Home />} />
@@ -23,6 +24,7 @@ return(
         <Route  path="/portfolio/skills" element={<Skills/>} />
       </Routes>
       <Back/>
+      </PageWrapper>
     </BrowserRouter>
   </>
 )
