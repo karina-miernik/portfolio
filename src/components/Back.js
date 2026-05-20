@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 const Back = (props) => {
   return(
-    <Link to="/portfolio" className='back-icon'>
+    <Link to="/" className='back-icon'>
        <FontAwesomeIcon icon={faHome} size="lg" />
     </Link>
   )

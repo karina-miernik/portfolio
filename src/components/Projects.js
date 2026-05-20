@@ -29,7 +29,7 @@ const Projects = () => {
     {
       "name": "Countries App",
       "description" : "Countries App build in React",
-      "link" : "https://karina-miernik.github.io/countries-app/",
+      "link" : "https://countries-search-page.netlify.app/",
       "image": countries
     },
   ]

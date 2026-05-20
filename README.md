@@ -1,3 +1,3 @@
 # My portfolio
 
-👉 https://karina-miernik.github.io/portfolio/
+👉 https://karina-felskowska.netlify.app/

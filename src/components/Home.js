@@ -19,10 +19,10 @@ const Home = () => {
                 }}
             />
             <div className="button-container">
-                <Link to="/portfolio/projects" className="link-button projects">
+                <Link to="/projects" className="link-button projects">
                     My projects
                 </Link>
-                <Link to="/portfolio/about" className="link-button about-me">
+                <Link to="/about" className="link-button about-me">
                     About me
                 </Link>
             </div>

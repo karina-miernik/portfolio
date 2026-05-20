@@ -13,16 +13,16 @@ const Menu = (props) => {
           {
             isOpen  ?
             <div className={'menuOpen'}>
-            <Link to="/portfolio" className={'link'} onClick={e=>setOpen(false)}>
+            <Link to="" className={'link'} onClick={e=>setOpen(false)}>
             home
             </Link>
-            <Link to="/portfolio/projects" className={'link'} onClick={e=>setOpen(false)}>
+            <Link to="/projects" className={'link'} onClick={e=>setOpen(false)}>
             projects
             </Link>
-            <Link to="/portfolio/skills" className={'link'} onClick={e=>setOpen(false)}>
+            <Link to="/skills" className={'link'} onClick={e=>setOpen(false)}>
             skills
             </Link>
-            <Link to="/portfolio/about" className={'link'} onClick={e=>setOpen(false)}>
+            <Link to="/about" className={'link'} onClick={e=>setOpen(false)}>
             about
             </Link>
           </div>
