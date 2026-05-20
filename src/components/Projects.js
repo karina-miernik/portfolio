@@ -2,7 +2,6 @@ import React from 'react';
 import Title from './Title'
 import Card from './Card'
 import '../styles/Projects.css'
-import herbmed from '../assets/herbmed.png'
 import zdroweat from '../assets/zdroweat.png'
 import countries from '../assets/countries.png'
 import cottage from '../assets/cottage.png'
@@ -20,12 +19,12 @@ const Projects = () => {
       // "link" : "http://app.zdroweat.jfdz14.is-academy.pl/",
       "image": zdroweat
     },
-    {
-      "name": "Herbmed",
-      "description" : "Herbmed App build in React with Hooks. Created for finding herbs that may heal certain diseases.",
-      "link" : "https://karina-miernik.github.io/herbmed/",
-      "image" : herbmed
-    },
+    // {
+    //   "name": "Herbmed",
+    //   "description" : "Herbmed App build in React with Hooks. Created for finding herbs that may heal certain diseases.",
+    //   "link" : "https://karina-miernik.github.io/herbmed/",
+    //   "image" : herbmed
+    // },
     {
       "name": "Countries App",
       "description" : "Countries App build in React",
