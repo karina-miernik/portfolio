@@ -31,7 +31,7 @@
   padding:4rem;
   border-radius: 0.25rem;
   position:relative;
-  z-index: -1;
+  z-index: 1;
 }
 .about-desc::before{
   z-index: -2;
@@ -76,6 +76,7 @@
   text-decoration: none;
   margin-bottom: 0.5rem;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 .about-gh:hover, .about-linkedin:hover{
 color: #8A817C;

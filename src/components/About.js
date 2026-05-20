@@ -16,15 +16,19 @@ const About = (props) => {
           <p>I work mainly with JavaScript and Ruby on Rails, but my passion is React.</p>
           <p>In private I am a book lover and amatour artist.</p>
           <h3>Find out more</h3>
-          <a class="about-gh" href="https://github.com/karina-miernik" target="_blank" rel="noreferrer">
+          <a className="about-gh" href="https://github.com/karina-miernik" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} className='about-icon'/>Github page
           </a>
-          <a class="about-linkedin" href="https://www.linkedin.com/in/karina-miernik/" target="_blank" rel="noreferrer">
+          <a className="about-linkedin" href="https://www.linkedin.com/in/karina-miernik/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className='about-icon'/>My Linkeding Profile
           </a>
-          <a class="about-linkedin" href="mailto:karina.miernik@gmail.com" data-link="mailto:karina.miernik@gmail.com" target="_blank" rel="noreferrer">
+   
+          <a className="about-linkedin" href="mailto:karina.miernik@gmail.com" data-link="mailto:karina.miernik@gmail.com" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faEnvelope} className='about-icon'/>Contact me
           </a>
+          <div id="special">
+          </div>
+          
         </div>
       </div>
     </div>    
