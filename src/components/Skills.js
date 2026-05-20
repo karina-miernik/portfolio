@@ -1,6 +1,5 @@
 import React from 'react';
 import Title from './Title'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import JS from '../assets/JS.svg'
 import Re from '../assets/Re.svg'
 import CSS from '../assets/CSS.svg'
@@ -9,7 +8,6 @@ import RoR from '../assets/RoR.svg'
 import Git from '../assets/Git.svg'
 import AWS from '../assets/AWS.svg'
 import '../styles/Skills.css'
-import { renderMatches } from 'react-router-dom';
 const skills = [
   {
     "name": "Java Script",
@@ -49,7 +47,7 @@ const Skills = (props) => {
           return(
          <div className='skill'> 
           <p className='hidden-p'></p>  
-          <img src={skill.icon} alt="Icon image"/>
+          <img src={skill.icon} alt=""/>
           <p>{skill.name}</p>
         </div>
           )

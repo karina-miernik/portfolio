@@ -1,7 +1,6 @@
 import React from 'react';
 import Title from './Title'
 import '../styles/About.css'
-import me from '../assets/me.jpeg'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
