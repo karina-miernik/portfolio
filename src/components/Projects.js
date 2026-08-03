@@ -3,7 +3,6 @@ import Title from "./Title";
 import Card from "./Card";
 import "../styles/Projects.css";
 import zdroweat from "../assets/zdroweat.png";
-import countries from "../assets/countries.png";
 import portal from "../assets/portal.png";
 import events from "../assets/events.png";
 import cottage from "../assets/cottage.png";
