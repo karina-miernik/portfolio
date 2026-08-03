@@ -49,7 +49,7 @@ const About = (props) => {
                             icon={faGithub}
                             className="about-icon"
                         />
-                        Work github page
+                         Github work page
                     </a>
                     <a
                         className="about-linkedin"
