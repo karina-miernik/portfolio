@@ -1,6 +1,13 @@
 import React from "react";
 import "../styles/Card.css";
-const Card = ({ description, name, link, image }) => {
+const Card = ({
+    description,
+    name,
+    link,
+    image,
+    visit = true,
+    description2,
+}) => {
     return (
         <a
             className="project-link"
@@ -14,8 +21,11 @@ const Card = ({ description, name, link, image }) => {
                 </div>
                 <div className="details-container">
                     <div className="name">{name}</div>
-                    <div className="desc">{description}</div>
-                    {`Visit ${name}`}
+                    <div className="desc">
+                        <div className="desc2">{description2}</div>
+                        {description}
+                    </div>
+                    {visit && <div className="visit">{`Visit ${name}`}</div>}
                 </div>
             </div>
         </a>
