@@ -7,6 +7,7 @@ import HTML from "../assets/HTML.svg";
 import RoR from "../assets/RoR.svg";
 import Git from "../assets/Git.svg";
 import AWS from "../assets/AWS.svg";
+import TS from "../assets/TS.svg";
 import "../styles/Skills.css";
 const skills = [
     {
@@ -17,12 +18,16 @@ const skills = [
         name: "React",
         icon: Re,
     },
+        {
+        name: "TypeScript",
+        icon: TS,
+    },
     {
-        name: "CSS",
+        name: "CSS3",
         icon: CSS,
     },
     {
-        name: "HTML",
+        name: "HTML5",
         icon: HTML,
     },
     {

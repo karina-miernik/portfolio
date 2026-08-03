@@ -36,7 +36,7 @@ const Projects = () => {
             description2: "Work project",
             image: entonal,
         },
-               {
+        {
             name: "Hypothesis Research",
             description:
                 "I was responsible for frontend side of an app. Website providing investment research and analitycal services. Frontend build in Ruby on Rails with Tailwind CSS.",
@@ -53,6 +53,7 @@ const Projects = () => {
         },
         {
             name: "ZdrowEat",
+            description2: "Deprecated",
             description:
                 "A team project. ZdrowEat is an app for finding heathy recipes. Build in React.",
             // "link" : "http://app.zdroweat.jfdz14.is-academy.pl/",
