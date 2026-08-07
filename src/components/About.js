@@ -53,7 +53,7 @@ const About = (props) => {
                     </a>
                     <a
                         className="about-linkedin"
-                        href="https://www.linkedin.com/in/karina-miernik/"
+                        href="https://www.linkedin.com/in/karina-felskowska/"
                         target="_blank"
                         rel="noreferrer"
                     >
